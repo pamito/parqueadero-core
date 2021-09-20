@@ -1,0 +1,12 @@
+D:\Parking\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.deps.json
+D:\Parking\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.dll
+D:\Parking\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\ref\Parking.App.Dominio.dll
+D:\Parking\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.pdb
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.csproj.AssemblyReference.cache
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.AssemblyInfoInputs.cache
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.AssemblyInfo.cs
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.dll
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\ref\Parking.App.Dominio.dll
+D:\Parking\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.pdb
