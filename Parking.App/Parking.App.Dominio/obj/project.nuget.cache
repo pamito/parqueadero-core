@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N9KzfawP5AtWCdltVT+3vRkgBwHz3r58Qga5CkWsXPZwincCVGR7AL6QDkVLAJOf0mdFReW9LcKVt5OKmzsgQg==",
+  "dgSpecHash": "sqvUGxG1s+w8nOyrgiSAauDWTjZP+jf2OAkBhkMeNxuIJxLF922C9+jsnOdoj8G7fbgFAj5CVBglTfXryyPliA==",
   "success": true,
-  "projectFilePath": "D:\\Parking\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj",
+  "projectFilePath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

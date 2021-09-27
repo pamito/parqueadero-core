@@ -5,8 +5,9 @@ using System;
     {
         public Transaccion Transaccion {get; set;}
          public int Id{get; set; }
+         public string Piso{ get; set; }
          public string Espacio{ get; set; }
-         public bool Estado{ get; set; }
+         public bool Estado{ get; set; }    
  
      }
  }

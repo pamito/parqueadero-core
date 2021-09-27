@@ -1,5 +1,0 @@
-D:\Parking\Parking.App\Parking.App.Console\obj\Debug\net5.0\Parking.App.Console.csproj.AssemblyReference.cache
-D:\Parking\Parking.App\Parking.App.Console\obj\Debug\net5.0\Parking.App.Console.GeneratedMSBuildEditorConfig.editorconfig
-D:\Parking\Parking.App\Parking.App.Console\obj\Debug\net5.0\Parking.App.Console.AssemblyInfoInputs.cache
-D:\Parking\Parking.App\Parking.App.Console\obj\Debug\net5.0\Parking.App.Console.AssemblyInfo.cs
-D:\Parking\Parking.App\Parking.App.Console\obj\Debug\net5.0\Parking.App.Console.csproj.CoreCompileInputs.cache
