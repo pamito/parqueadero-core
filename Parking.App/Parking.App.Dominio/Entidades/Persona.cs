@@ -10,9 +10,9 @@ namespace Parking.App.Dominio
         public string Telefono { get; set; }
         public string Direccion { get; set; }
         public string Email { get; set; }
-        public string Contraseña { get; set; }
+        public string Contrasena { get; set; }
         public DateTime Fecha_nacimento { get; set; }
-        public Rol Rol { get; set; }
+        
 
 
                 

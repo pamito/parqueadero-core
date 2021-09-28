@@ -13,7 +13,6 @@ namespace Parking.App.Persistencia
         public DbSet<Parqueadero> Parqueaderos { get; set; }
         public DbSet<Persona> Personas { get; set; }
         public DbSet<Reserva> Reservas { get; set; }
-        public DbSet<Rol> Rols { get; set; }
         public DbSet<Transaccion> Transacciones { get; set; }
         public DbSet<Vehiculo> Vehiculos { get; set; }
 
