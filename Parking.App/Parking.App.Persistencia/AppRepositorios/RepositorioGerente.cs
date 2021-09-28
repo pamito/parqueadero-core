@@ -1,19 +1,20 @@
 using System.Collections.Generic;
 using System.Linq;
-using Parking.app.Dominio;
-using Microsoft.EntityFrameworkCore;
+using Parking.App.Dominio;
+using Parking.App.Persistencia;
 
-namespace Parking.app.Persistencia{
+namespace Parking.app.Persistencia
+{
     public class RepositorioGerente : IRepositorioGerente
     {
-        private readonly Contexto _contexto;
+        private readonly AppContext _contexto;
 
-        public RepositorioGerente(Contexto context){
+        public RepositorioGerente(AppContext context){
             this._contexto = context;
         }
         public Gerente addGerente(Gerente gerente)
         {
-            Gerente nuevoGerente = _contexto.Add(Gerente).Entity;
+            Gerente nuevoGerente = _contexto.Add(gerente).Entity;
             _contexto.SaveChanges();
             return nuevoGerente;
         }
@@ -22,31 +23,32 @@ namespace Parking.app.Persistencia{
         {
             Gerente GerenteAEditar = _contexto.Gerentes.FirstOrDefault(f => f.Id == Gerente.Id);
             if(GerenteAEditar != null){
-                GerenteAEditar.Nombre = Gerente.nombre;
-                GerenteAEditar.Identificacion = Gerente.identificacion;
-                GerenteAEditar.Telefono = Gerente.telefono;
-                GerenteAEditar.Direccion = Gerente.direccion;
-                GerenteAEditar.Email = Gerente.email;
-                GerenteAEditar.Contrasena = Gerente.contrasena;
-                GerenteAEditar.Fecha_nacimento = Gerente.fecha_nacimento;
+                GerenteAEditar.Nombre = Gerente.Nombre;
+                GerenteAEditar.Identificacion = Gerente.Identificacion;
+                GerenteAEditar.Telefono = Gerente.Telefono;
+                GerenteAEditar.Direccion = Gerente.Direccion;
+                GerenteAEditar.Email = Gerente.Email;
+                GerenteAEditar.Contrasena = Gerente.Contrasena;
+                GerenteAEditar.Fecha_nacimento = Gerente.Fecha_nacimento;
                 _contexto.SaveChanges();
             }
             return GerenteAEditar;
         }
-		/*
-        public IEnumerable<Gerente> getAllGerentes()
+
+        public IEnumerable<Gerente> getAllGerente()
         {
-            return _contexto.Gerentes.Include("familiar").Include("medico").Include("enfermera");
+            return _contexto.Gerentes;
         }
-		*/
+
+       
         public Gerente getGerente(string identificacion)
         {
-            return _contexto.Gerentes.FirstOrDefault(x => x.identificacion == identificacion);
+            return _contexto.Gerentes.FirstOrDefault(x => x.Identificacion == identificacion);
         }
 
         public void removeGerente(string identificacion)
         {
-            Gerente gerente = _contexto.Gerentes.FirstOrDefault(e => e.identificacion == identificacion);
+            Gerente gerente = _contexto.Gerentes.FirstOrDefault(e => e.Identificacion == identificacion);
             if(gerente != null){
                 _contexto.Gerentes.Remove(gerente);
                 _contexto.SaveChanges();

@@ -1,15 +1,16 @@
 using System.Collections.Generic;
 using System.Linq;
-using HospitalEnCasa.app.Dominio;
-using Microsoft.EntityFrameworkCore;
+using Parking.App.Dominio;
+using Parking.App.Persistencia;
 
-namespace Parking.app.Persistencia{
+namespace Parking.app.Persistencia
+{
     public class RepositorioAuxiliar : IRepositorioAuxiliar
     {
-        private readonly Contexto _contexto;
+        private readonly AppContext _contexto;
 
-        public RepositorioAuxiliar(Contexto context){
-            this._contexto = context;
+        public RepositorioAuxiliar(AppContext contexto){
+            this._contexto = contexto;
         }
         public Auxiliar addAuxiliar(Auxiliar auxiliar)
         {
@@ -18,42 +19,50 @@ namespace Parking.app.Persistencia{
             return nuevoAuxiliar;
         }
 
+
         public Auxiliar editAuxiliar(Auxiliar auxiliar)
         {
             Auxiliar auxiliarAEditar = _contexto.Auxiliares.FirstOrDefault(f => f.Id == auxiliar.Id);
             if(auxiliarAEditar != null){
-                auxiliarAEditar.Nombre = auxiliar.nombre;
-                auxiliarAEditar.Identificacion = auxiliar.identificacion;
-                auxiliarAEditar.Telefono = auxiliar.telefono;
-                auxiliarAEditar.Direccion = auxiliar.direccion;
-                auxiliarAEditar.Email = auxiliar.email;
-                auxiliarAEditar.Contrasena = auxiliar.contrasena;
-                auxiliarAEditar.Fecha_nacimento = auxiliar.fecha_nacimiento;
-                auxiliarAEditar.Turno = auxiliar.turno;
+                auxiliarAEditar.Nombre = auxiliar.Nombre;
+                auxiliarAEditar.Identificacion = auxiliar.Identificacion;
+                auxiliarAEditar.Telefono = auxiliar.Telefono;
+                auxiliarAEditar.Direccion = auxiliar.Direccion;
+                auxiliarAEditar.Email = auxiliar.Email;
+                auxiliarAEditar.Contrasena = auxiliar.Contrasena;
+                auxiliarAEditar.Fecha_nacimento = auxiliar.Fecha_nacimento;
+                auxiliarAEditar.Turno = auxiliar.Turno;
                 
                 _contexto.SaveChanges();
             }
             return auxiliarAEditar;
         }
 
-        /*public IEnumerable<Auxiliar> getAllAuxiliar()
+        
+
+        public IEnumerable<Auxiliar> getAllAuxiliar()
         {
-            return _contexto.Auxiliares.Include("familiar").Include("medico").Include("enfermera");
+            return _contexto.Auxiliares;
         }
-        */
-        public Auxiliar getAuxiliar(string identificacion)
+
+        public Auxiliar getAuxiliar(string Identificacion)
         {
-            return _contexto.Auxiliares.FirstOrDefault(x => x.identificacion == identificacion);
+            throw new System.NotImplementedException();
         }
 
         public void removeAuxiliar(string identificacion)
         {
-            Auxiliar auxiliar = _contexto.Auxiliares.FirstOrDefault(x => x.identificacion == identificacion);
+            Auxiliar auxiliar = _contexto.Auxiliares.FirstOrDefault(x => x.Identificacion == identificacion);
             if(auxiliar != null){
-                _contexto.Auxliares.Remove(auxiliar);
+                _contexto.Auxiliares.Remove(auxiliar);
                 _contexto.SaveChanges();
             }
 
+        }
+
+        public void removeAuxiliar(int Identificacion)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
