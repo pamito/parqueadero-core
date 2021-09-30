@@ -1,0 +1,36 @@
+﻿@page
+@model Parking.App.Frontend.indexModel
+@{
+}
+<h1>Gestionar Auxiliares</h1>
+<p>En está pagina podrás gestionar los Auxiliares</p>
+<a class="btn btn-primary table-btn" asp-page="./Crearauxiliar">Agrega Auxiliar</a>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Identificacion</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Email</th>
+      <th scope="col">Contraseña</th>
+      <th scope="col">Fecha de Nacimiento</th>
+      <th scope="col">Turno</th>
+    </tr>
+  </thead>
+@foreach(var auxiliar in Model.auxiliares){
+    <tr>
+        <td>@auxiliar.Nombre</td>
+        <td>@auxiliar.Identificacion</td>
+        <td>@auxiliar.Telefono</td>
+        <td>@auxiliar.Direccion</td>
+        <td>@auxiliar.Email</td>
+        <td>@auxiliar.Contrasena</td>
+        <td>@auxiliar.Fecha_nacimento</td>
+        <td>@auxiliar.Turno</td>
+        <td>
+          
+    </tr>
+}
+</table>
+

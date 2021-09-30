@@ -47,7 +47,8 @@ namespace Parking.app.Persistencia
 
         public Auxiliar getAuxiliar(string Identificacion)
         {
-            throw new System.NotImplementedException();
+            Auxiliar auxiliarencontrado = _contexto.Auxiliares.FirstOrDefault(x => x.Identificacion == Identificacion);
+            return auxiliarencontrado;
         }
 
         public void removeAuxiliar(string identificacion)
