@@ -10,7 +10,7 @@ using Parking.App.Persistencia;
 namespace Parking.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210930005728_Primera")]
+    [Migration("20210930163709_Primera")]
     partial class Primera
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,7 +67,7 @@ namespace Parking.App.Persistencia.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("Fecha_nacimento")
+                    b.Property<DateTime>("Fecha_nacimiento")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Identificacion")

@@ -11,7 +11,7 @@ namespace Parking.App.Dominio
         public string Direccion { get; set; }
         public string Email { get; set; }
         public string Contrasena { get; set; }
-        public DateTime Fecha_nacimento { get; set; }
+        public DateTime Fecha_nacimiento { get; set; }
         
 
 

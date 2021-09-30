@@ -30,7 +30,7 @@ namespace Parking.app.Persistencia
                 auxiliarAEditar.Direccion = auxiliar.Direccion;
                 auxiliarAEditar.Email = auxiliar.Email;
                 auxiliarAEditar.Contrasena = auxiliar.Contrasena;
-                auxiliarAEditar.Fecha_nacimento = auxiliar.Fecha_nacimento;
+                auxiliarAEditar.Fecha_nacimiento = auxiliar.Fecha_nacimiento;
                 auxiliarAEditar.Turno = auxiliar.Turno;
                 
                 _contexto.SaveChanges();

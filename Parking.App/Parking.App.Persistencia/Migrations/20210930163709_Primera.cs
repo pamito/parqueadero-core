@@ -19,7 +19,7 @@ namespace Parking.App.Persistencia.Migrations
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Contrasena = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Fecha_nacimento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Fecha_nacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdAdministrador = table.Column<int>(type: "int", nullable: true),
                     IdAuxiliar = table.Column<int>(type: "int", nullable: true),

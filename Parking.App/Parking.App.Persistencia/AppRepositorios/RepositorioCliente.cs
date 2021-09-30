@@ -30,7 +30,7 @@ namespace Parking.App.Persistencia
                 clienteAEditar.Email = cliente.Email;
                 clienteAEditar.Direccion = cliente.Direccion;
                 clienteAEditar.Contrasena = cliente.Contrasena;
-                clienteAEditar.Fecha_nacimento = cliente.Fecha_nacimento;
+                clienteAEditar.Fecha_nacimiento = cliente.Fecha_nacimiento;
                 clienteAEditar.fecha_Registro= cliente.fecha_Registro;
                 clienteAEditar.Telefono= cliente.Telefono;
                 _contexto.SaveChanges();

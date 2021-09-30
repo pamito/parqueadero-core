@@ -65,7 +65,7 @@ namespace Parking.App.Persistencia.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("Fecha_nacimento")
+                    b.Property<DateTime>("Fecha_nacimiento")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Identificacion")

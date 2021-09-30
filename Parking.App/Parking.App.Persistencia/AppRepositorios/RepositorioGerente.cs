@@ -29,7 +29,7 @@ namespace Parking.app.Persistencia
                 GerenteAEditar.Direccion = Gerente.Direccion;
                 GerenteAEditar.Email = Gerente.Email;
                 GerenteAEditar.Contrasena = Gerente.Contrasena;
-                GerenteAEditar.Fecha_nacimento = Gerente.Fecha_nacimento;
+                GerenteAEditar.Fecha_nacimiento = Gerente.Fecha_nacimiento;
                 _contexto.SaveChanges();
             }
             return GerenteAEditar;
