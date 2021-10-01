@@ -158,3 +158,10 @@ C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Front
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Parking.App.Frontend.genruntimeconfig.cache
 >>>>>>> c9008682778911c1f5dba2333fc258d9b938cd8a
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\ListarGerente.cshtml.g.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\DetalleAuxiliar.cshtml.g.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\EditarAuxiliar.cshtml.g.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\EliminarAuxiliar.cshtml.g.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\CrearGerente.cshtml.g.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\EditarGerente.cshtml.g.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\EliminarGerente.cshtml.g.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\DetalleGerente.cshtml.g.cs

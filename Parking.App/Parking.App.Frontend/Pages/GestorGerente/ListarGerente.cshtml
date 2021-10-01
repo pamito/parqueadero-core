@@ -4,7 +4,7 @@
 }
 <h1>Gestionar Gerente</h1>
 <P>En esta pagina podras Gestionar los gerentes</P>
-<a class="btn btn-primary table-btn" asp-page="./ListarGerente">Agregar Gerente</a>
+<a class="btn btn-primary table-btn" asp-page="./CrearGerente">Agregar Gerente</a>
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -14,6 +14,7 @@
       <th scope="col">Direccion</th>
       <th scope="col">Email</th>
       <th scope="col">Contraseña</th>
+      <th scope="col">Acciones</th>
   
     
     </tr>
@@ -27,7 +28,9 @@
         <td>@gerente.Direccion</td>
         <td>@gerente.Email</td>
         <td>@gerente.Contrasena</td>
-
+        <td><a class="btn btn-primary table-btn" asp-page="./DetalleGerente" asp-route-Identificacion="@gerente.Identificacion">Ver más</a>
+          <br>
+          <a class="btn btn-primary table-btn" asp-page="./EditarGerente" asp-route-Identificacion="@gerente.Identificacion">Editar</a></td>
         <td>
           
     </tr>

@@ -1,0 +1,48 @@
+﻿@page
+@model Parking.App.Frontend.CrearGerenteModel
+@{
+}
+<h1>Crear Gerente</h1>
+<form method="post" class="mt-3">
+    <div class="form-group row">
+        <label asp-for="gerente.Nombre" class="col-sm-2">Nombre</label>
+        <input asp-for="gerente.Nombre" class="form-control" value="" required >
+        
+    </div>
+    <div class="form-group row">
+        <label asp-for="gerente.Identificacion" class="col-sm-2">Identificacion</label>
+        <input asp-for="gerente.Identificacion" class="form-control" value="" required>
+        
+    </div>   
+    
+        
+    <div class="form-group row">  
+        <label asp-for="gerente.Telefono" class="col-sm-2">Telefono</label>
+        <input asp-for="gerente.Telefono" class="form-control" value="" required>
+           
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="gerente.Direccion" class="col-sm-2">Direccion</label>
+        <input asp-for="gerente.Direccion" class="form-control" value="">
+        
+    </div> 
+
+    <div class="form-group row">
+        <label asp-for="gerente.Email" class="col-sm-2">Email</label>
+        <input asp-for="gerente.Email" class="form-control" value="" required>
+        
+    </div> 
+
+    <div class="form-group row">
+        <label asp-for="gerente.Contrasena" class="col-sm-2">Contraseña</label>
+        <input asp-for="gerente.Contrasena" class="form-control" value="" required>
+        
+             
+    </div>
+
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-page="./ListarGrente" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>
