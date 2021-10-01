@@ -1,0 +1,13 @@
+﻿@page
+@model Parking.App.Frontend.EliminarAuxiliarModel
+@{
+}
+<h1>Eliminar Auxiliar @Model.auxiliar.Nombre</h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="auxiliar.Identificacion">
+    <input hidden asp-for="auxiliar.IdAuxiliar">
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Eliminar</button>
+        <a asp-page="./index" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

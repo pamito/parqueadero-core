@@ -29,7 +29,10 @@
         <td>@auxiliar.Fecha_nacimiento</td>
         <td>@auxiliar.Turno</td>
         <td>
-          
+            <a class="btn btn-primary table-btn" asp-page="./DetalleAuxiliar" asp-route-id="@auxiliar.Id">Ver más</a>
+            <a class="btn btn-primary table-btn" asp-page="./EditarAuxiliar" asp-route-id="@auxiliar.Id">Editar</a>
+            <a class="btn btn-primary table-btn" asp-page="./EliminarAuxiliar" asp-route-id="@auxiliar.Id">Eliminar</a>
+        </td>  
     </tr>
 }
 </table>

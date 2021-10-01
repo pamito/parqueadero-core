@@ -74,6 +74,11 @@ D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\bin
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\index.cshtml.g.cs
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\CrearAuxiliar.cshtml.g.cs
+<<<<<<< HEAD
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\DetalleAuxiliar.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\EditarAuxiliar.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAuxiliar\EliminarAuxiliar.cshtml.g.cs
+=======
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\bin\Debug\net5.0\appsettings.Development.json
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\bin\Debug\net5.0\appsettings.json
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\bin\Debug\net5.0\Parking.App.Frontend.exe
@@ -151,3 +156,5 @@ C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Front
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\ref\Parking.App.Frontend.dll
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Parking.App.Frontend.pdb
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Parking.App.Frontend.genruntimeconfig.cache
+>>>>>>> c9008682778911c1f5dba2333fc258d9b938cd8a
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\ListarGerente.cshtml.g.cs

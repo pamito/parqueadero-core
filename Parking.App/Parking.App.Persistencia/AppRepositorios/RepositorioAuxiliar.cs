@@ -22,7 +22,7 @@ namespace Parking.app.Persistencia
 
         public Auxiliar editAuxiliar(Auxiliar auxiliar)
         {
-            Auxiliar auxiliarAEditar = _contexto.Auxiliares.FirstOrDefault(f => f.Id == auxiliar.Id);
+            Auxiliar auxiliarAEditar = _contexto.Auxiliares.FirstOrDefault(f => f.IdAuxiliar == auxiliar.IdAuxiliar);
             if(auxiliarAEditar != null){
                 auxiliarAEditar.Nombre = auxiliar.Nombre;
                 auxiliarAEditar.Identificacion = auxiliar.Identificacion;
@@ -45,9 +45,9 @@ namespace Parking.app.Persistencia
             return _contexto.Auxiliares;
         }
 
-        public Auxiliar getAuxiliar(string Identificacion)
+        public Auxiliar getAuxiliar(int Id)
         {
-            Auxiliar auxiliarencontrado = _contexto.Auxiliares.FirstOrDefault(x => x.Identificacion == Identificacion);
+            Auxiliar auxiliarencontrado = _contexto.Auxiliares.FirstOrDefault(a => a.Id == Id);
             return auxiliarencontrado;
         }
 
@@ -61,9 +61,6 @@ namespace Parking.app.Persistencia
 
         }
 
-        public void removeAuxiliar(int Identificacion)
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }

@@ -14,6 +14,6 @@ namespace Parking.App.Persistencia
         //Eliminar Auxiliar
         void removeAuxiliar(string Identificacion);
 
-        Auxiliar getAuxiliar(string Identificacion);
+        Auxiliar getAuxiliar(int Id);
     }
 }
