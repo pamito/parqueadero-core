@@ -10,8 +10,8 @@ using Parking.App.Persistencia;
 namespace Parking.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210930163709_Primera")]
-    partial class Primera
+    [Migration("20210930234032_Entidades")]
+    partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

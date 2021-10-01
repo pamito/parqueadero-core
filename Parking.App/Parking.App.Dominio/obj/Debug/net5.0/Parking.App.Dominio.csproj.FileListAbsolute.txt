@@ -34,3 +34,15 @@ D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.dll
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\ref\Parking.App.Dominio.dll
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.pdb
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.deps.json
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.dll
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\ref\Parking.App.Dominio.dll
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.pdb
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.csproj.AssemblyReference.cache
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.AssemblyInfoInputs.cache
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.AssemblyInfo.cs
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.dll
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\ref\Parking.App.Dominio.dll
+C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.pdb
