@@ -5814,19 +5814,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TS-CIB3\\.nuget\\packages\\": {}
+    "C:\\Users\\pablo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj",
+      "projectUniqueName": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj",
       "projectName": "Parking.App.Persistencia",
-      "projectPath": "C:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\TS-CIB3\\.nuget\\packages\\",
-      "outputPath": "C:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\obj\\",
+      "projectPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
+      "outputPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TS-CIB3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5838,8 +5842,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {
-              "projectPath": "C:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj"
+            "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {
+              "projectPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj"
             }
           }
         }
