@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorCliente\\CrearCliente.cshtml",
+      "TargetPath": "Pages\\GestorCliente\\CrearCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15661,11 @@
     {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorCliente\\EditarCliente.cshtml",
+      "TargetPath": "Pages\\GestorCliente\\EditarCliente.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15689,8 +15699,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorCliente\\ListarCliente.cshtml",
+      "TargetPath": "Pages\\GestorCliente\\ListarCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorCliente\\DetalleCliente.cshtml",
+      "TargetPath": "Pages\\GestorCliente\\DetalleCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorAuxiliar\\index.cshtml",
       "TargetPath": "Pages\\GestorAuxiliar\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorVehiculo\\ListarVehiculo.cshtml",
+      "TargetPath": "Pages\\GestorVehiculo\\ListarVehiculo.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15701,6 +15726,11 @@
     {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorAuxiliar\\EditarAuxiliar.cshtml",
       "TargetPath": "Pages\\GestorAuxiliar\\EditarAuxiliar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorCliente\\EliminarCliente.cshtml",
+      "TargetPath": "Pages\\GestorCliente\\EliminarCliente.cshtml",
       "FileKind": "mvc"
     }
   ],
