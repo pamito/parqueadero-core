@@ -1,0 +1,13 @@
+﻿@page
+@model Parking.App.Frontend.EliminarAdministradorModel
+@{
+}
+<h1>Eliminar Administrador @Model.administrador.Nombre</h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="administrador.Identificacion">
+    <input hidden asp-for="administrador.IdAdministrador">
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Eliminar</button>
+        <a asp-page="./index" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

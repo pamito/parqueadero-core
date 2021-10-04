@@ -20,7 +20,7 @@ namespace Parking.App.Frontend
         public IEnumerable<Vehiculo>vehiculos;
         public void OnGet()
         {
-            vehiculos=repositorioVehiculo.getAllVehiculos();
+            vehiculos=repositorioVehiculo.getAllVehiculo();
         }
     }
 }

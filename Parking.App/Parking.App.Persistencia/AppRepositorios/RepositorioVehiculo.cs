@@ -42,13 +42,10 @@ namespace Parking.app.Persistencia
 
         public IEnumerable<Vehiculo> getAllVehiculo()
         {
-            return _contexto.Vehiculos.Include("cliente");
+            return _contexto.Vehiculos;//.Include("cliente");
         }
 
-        public IEnumerable<Vehiculo> getAllVehiculos()
-        {
-            throw new System.NotImplementedException();
-        }
+      
 
         public Vehiculo getVehiculo(string Placa)
         {

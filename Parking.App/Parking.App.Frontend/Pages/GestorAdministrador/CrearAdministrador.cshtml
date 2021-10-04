@@ -1,0 +1,55 @@
+﻿@page
+@model Parking.App.Frontend.CrearAdministradorModel
+@using Parking.App.Dominio
+@{
+}
+<h1>Crear Administrador</h1>
+<form method="post" class="mt-3">
+    <div class="form-group row">
+        <label asp-for="administrador.Nombre" class="col-sm-2">Nombre</label>
+        <input asp-for="administrador.Nombre" class="form-control" value="" required >
+        
+    </div>
+    <div class="form-group row">
+        <label asp-for="administrador.Identificacion" class="col-sm-2">Identificacion</label>
+        <input asp-for="administrador.Identificacion" class="form-control" value="" required>
+        
+    </div>   
+    
+        
+    <div class="form-group row">  
+        <label asp-for="administrador.Telefono" class="col-sm-2">Telefono</label>
+        <input asp-for="administrador.Telefono" class="form-control" value="" required>
+           
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="administrador.Direccion" class="col-sm-2">Direccion</label>
+        <input asp-for="administrador.Direccion" class="form-control" value="">
+        
+    </div> 
+
+    <div class="form-group row">
+        <label asp-for="administrador.Email" class="col-sm-2">Email</label>
+        <input asp-for="administrador.Email" class="form-control" value="" required>
+        
+    </div> 
+
+    <div class="form-group row">
+        <label asp-for="administrador.Contrasena" class="col-sm-2">Contraseña</label>
+        <input asp-for="administrador.Contrasena" class="form-control" value="" required>
+       
+    </div>
+
+    
+    <div class="form-group row">
+        <label asp-for="administrador.Fecha_nacimiento" class="col-sm-2">Fecha de Nacimiento</label>
+        <input asp-for="administrador.Fecha_nacimiento" class="form-control" value="" required>
+        
+    </div>
+
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-page="./index" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

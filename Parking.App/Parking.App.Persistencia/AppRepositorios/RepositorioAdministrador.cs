@@ -31,8 +31,7 @@ namespace Parking.app.Persistencia
                 administradorAEditar.Email = administrador.Email;
                 administradorAEditar.Contrasena = administrador.Contrasena;
                 administradorAEditar.Fecha_nacimiento = administrador.Fecha_nacimiento;
-                
-                
+                                
                 _contexto.SaveChanges();
             }
             return administradorAEditar;
@@ -61,6 +60,6 @@ namespace Parking.app.Persistencia
 
         }
 
-        
+       
     }
 }

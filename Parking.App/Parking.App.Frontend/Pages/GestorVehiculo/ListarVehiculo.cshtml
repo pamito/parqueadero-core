@@ -3,3 +3,34 @@
 @{
 }
 
+<h1>Gestionar Vehiculos</h1>
+<P>En esta pagina podras Gestionar los Vehiculos</P>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Marca</th>
+      <th scope="col">Modelo</th>
+      <th scope="col">Color</th>
+      <th scope="col">Tipo</th>
+      <th scope="col">Placa</th>
+      
+  
+    
+    </tr>
+  </thead>
+
+@foreach(var vehiculo in Model.vehiculos){
+ <tr>
+        <td>@vehiculo.Marca</td>
+        <td>@vehiculo.Model</td>
+        <td>@vehiculo.Color</td>
+        <td>@vehiculo.Tipo</td>
+        <td>@vehiculo.Placa</td>
+        
+        
+          
+    </tr>
+}
+</table>
+

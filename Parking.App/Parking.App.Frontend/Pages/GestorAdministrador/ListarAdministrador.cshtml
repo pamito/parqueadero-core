@@ -1,0 +1,36 @@
+﻿@page
+@model Parking.App.Frontend.Pages.ListarAdministradorModel
+@{
+}
+<h1>Gestionar Administradores</h1>
+<p>En está pagina podrás gestionar los Administradores</p>
+<a class="btn btn-primary table-btn" asp-page="./CrearAdministrador">Agrega Administrador</a>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Identificacion</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Email</th>
+      <th scope="col">Contraseña</th>
+      <th scope="col">Fecha de Nacimiento</th>
+    </tr>
+  </thead>
+@foreach(var administrador in Model.administradores){
+    <tr>
+        <td>@administrador.Nombre</td>
+        <td>@administrador.Identificacion</td>
+        <td>@administrador.Telefono</td>
+        <td>@administrador.Direccion</td>
+        <td>@administrador.Email</td>
+        <td>@administrador.Contrasena</td>
+        <td>@administrador.Fecha_nacimiento</td>
+        <td>
+            <a class="btn btn-primary table-btn" asp-page="./DetalleAdministrador" asp-route-id="@administrador.Id">Ver más</a>
+            <a class="btn btn-primary table-btn" asp-page="./EditarAdministrador" asp-route-id="@administrador.Id">Editar</a>
+            <a class="btn btn-primary table-btn" asp-page="./EliminarAdministrador" asp-route-id="@administrador.Id">Eliminar</a>
+        </td>  
+    </tr>
+}
+</table>

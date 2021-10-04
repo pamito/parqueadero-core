@@ -176,3 +176,13 @@ C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Front
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\DetalleCliente.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\EditarCliente.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\EliminarCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\ListarAdministrador.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\CrearCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\DetalleCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\EditarCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\EliminarCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\ListarCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\CrearAdministrador.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\DetalleAdministrador.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\EditarAdministrador.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\EliminarAdministrador.cshtml.g.cs

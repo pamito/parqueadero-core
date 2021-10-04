@@ -6,7 +6,7 @@ namespace Parking.App.Persistencia
     public interface IRepositorioVehiculo
     {
         //Consultar todos los Vehiculo
-        IEnumerable<Vehiculo> getAllVehiculos();
+        IEnumerable<Vehiculo> getAllVehiculo();
         //Añadir Vehiculo
         Vehiculo addVehiculo(Vehiculo Vehiculo);
         //Editar Vehiculo
