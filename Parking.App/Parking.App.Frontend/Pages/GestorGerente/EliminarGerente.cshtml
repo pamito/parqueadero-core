@@ -2,3 +2,12 @@
 @model Parking.App.Frontend.Pages.EliminarGerenteModel
 @{
 }
+<h1>Eliminar Gerente @Model.gerente.Nombre</h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="gerente.Identificacion">
+    <input hidden asp-for="gerente.IdGerente">
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Eliminar</button>
+        <a asp-page="./ListarGerente" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>
