@@ -14,6 +14,6 @@ namespace Parking.App.Persistencia
         //Eliminar Vehiculo
         void removeVehiculo(string Placa);
 
-        Vehiculo getVehiculo(string Placa);
+        Vehiculo getVehiculo(int Id);
     }
 }

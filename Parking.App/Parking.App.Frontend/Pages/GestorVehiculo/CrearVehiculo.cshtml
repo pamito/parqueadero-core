@@ -1,0 +1,45 @@
+﻿@page
+@model Parking.App.Frontend.CrearVehiculoModel
+@using Parking.App.Dominio
+@{
+}
+
+<h1>Crear Vehiculo</h1>
+<form method="post" class="mt-3">
+    <div class="form-group row">
+        <label asp-for="vehiculo.Marca" class="col-sm-2">Marca</label>
+        <input asp-for="vehiculo.Marca" class="form-control" value="" required >
+        
+    </div>
+    <div class="form-group row">
+        <label asp-for="vehiculo.Model" class="col-sm-2">Modelo</label>
+        <input asp-for="vehiculo.Model" class="form-control" value="" required>
+        
+    </div>   
+    
+        
+    <div class="form-group row">  
+        <label asp-for="vehiculo.Color" class="col-sm-2">Color</label>
+        <input asp-for="vehiculo.Color" class="form-control" value="" required>
+           
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="vehiculo.Placa" class="col-sm-2">Placa</label>
+        <input asp-for="vehiculo.Placa" class="form-control" value="">
+        
+    </div> 
+
+    <div class="form-group row">
+        <label asp-for="vehiculo.Tipo" class="col-sm-2">Tipo</label>
+        <div class="col-sm-10">
+            <select asp-for="vehiculo.Tipo" asp-items="Html.GetEnumSelectList<Tipo>()"></select>   
+        </div>
+        <span class="text-danger" asp-validation-for="vehiculo.Tipo"></span>
+    </div>
+
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-page="./index" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>
