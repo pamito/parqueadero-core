@@ -1,0 +1,29 @@
+﻿@page
+@using Dominio
+@model Parking.App.Frontend.Pages.CrearReservaClienteModel
+@{
+}
+<h1>Crear Reserva</h1>
+<form method="post" class="mt-3">
+    <div class="form-group row">
+        <label asp-for="reserva.Hora_Inicio" class="col-sm-2">Hora Inicio</label>
+        <input asp-for="reserva.Hora_Inicio" class="form-control" value="" required>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="reserva.Hora_Final" class="col-sm-2">Hora Fin</label>
+        <input asp-for="reserva.Hora_Final" class="form-control" value="">
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="reserva.Estado_Reserva" class="col-sm-2">Estado Reserva</label>
+        
+        <div class="col-sm-10">
+            <select asp-for="reserva.Estado_Reserva"  asp-items="Html.GetEnumSelectList<Estado_Reserva>()"></select>
+        </div>
+    </div>
+        <div class="form-group row">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a asp-page="./ListarReservaCliente" class="btn btn-primary">Cancelar</a>
+        </div>
+</form>

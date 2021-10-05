@@ -1,0 +1,39 @@
+﻿@page
+@model Parking.App.Frontend.Pages.ListarReservaClienteModel
+@{
+}
+<h1>Gestionar Reserva</h1>
+<P>En está página podrá gestionar su reserva</P>
+
+<a class="btn btn-primary table-btn" asp-page="./CrearReservaCliente">Agregar Reserva</a>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      
+      <th scope="col">Hora Inicio</th>
+      <th scope="col">Hora Fin</th>
+      <th scope="col">Estado Reserva</th>   
+      <th scope="col">Número de identificacion</th> 
+      <th scope="col">Placa</th> 
+      <th scope="col">Espacio asignado</th> 
+      <th scope="col">Editar</th> 
+    </tr>
+  </thead>
+
+@foreach(var reserva in Model.reservar)
+{
+  <tr>
+        
+        <td>@reserva.Hora_Inicio</td>
+        <td>@reserva.Hora_Final</td>
+        <td>@reserva.Estado_Reserva</td>   
+        <td></td>   
+        <td></td> 
+        <td></td> 
+        <td><a class="btn btn-primary table-btn" asp-page="./DetalleReservaCliente" asp-route-Id="@reserva.Id">Detalle</a>
+        <br>
+        <a class="btn btn-primary table-btn" asp-page="./EditarReservaCliente" asp-route-Id="@reserva.Id">Editar</a></td>
+  </tr>
+}
+
+</table>

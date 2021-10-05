@@ -15619,13 +15619,43 @@
   "RootNamespace": "Parking.App.Frontend",
   "Documents": [
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReserva\\ListarReserva.cshtml",
+      "TargetPath": "Pages\\GestorReserva\\ListarReserva.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorVehiculo\\DetalleVehiculo.cshtml",
+      "TargetPath": "Pages\\GestorVehiculo\\DetalleVehiculo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReserva\\EliminarReserva.cshtml",
+      "TargetPath": "Pages\\GestorReserva\\EliminarReserva.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorAdministrador\\ListarAdministrador.cshtml",
       "TargetPath": "Pages\\GestorAdministrador\\ListarAdministrador.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReservaCliente\\CrearReservaCliente.cshtml",
+      "TargetPath": "Pages\\GestorReservaCliente\\CrearReservaCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReserva\\CrearReserva.cshtml",
+      "TargetPath": "Pages\\GestorReserva\\CrearReserva.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReservaCliente\\DetalleReservaCliente.cshtml",
+      "TargetPath": "Pages\\GestorReservaCliente\\DetalleReservaCliente.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,8 +15684,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorVehiculo\\EditarVehiculo.cshtml",
+      "TargetPath": "Pages\\GestorVehiculo\\EditarVehiculo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorAuxiliar\\DetalleAuxiliar.cshtml",
       "TargetPath": "Pages\\GestorAuxiliar\\DetalleAuxiliar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorVehiculo\\EliminarVehiculo.cshtml",
+      "TargetPath": "Pages\\GestorVehiculo\\EliminarVehiculo.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15679,6 +15719,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorVehiculo\\CrearVehiculo.cshtml",
+      "TargetPath": "Pages\\GestorVehiculo\\CrearVehiculo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorCliente\\EditarCliente.cshtml",
       "TargetPath": "Pages\\GestorCliente\\EditarCliente.cshtml",
       "FileKind": "mvc"
@@ -15691,6 +15736,11 @@
     {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReserva\\EditarReserva.cshtml",
+      "TargetPath": "Pages\\GestorReserva\\EditarReserva.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15734,13 +15784,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReservaCliente\\EditarReservaCliente.cshtml",
+      "TargetPath": "Pages\\GestorReservaCliente\\EditarReservaCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorVehiculo\\ListarVehiculo.cshtml",
       "TargetPath": "Pages\\GestorVehiculo\\ListarVehiculo.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReserva\\DetalleReserva.cshtml",
+      "TargetPath": "Pages\\GestorReserva\\DetalleReserva.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ciclo3\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Pages\\GestorReservaCliente\\ListarReservaCliente.cshtml",
+      "TargetPath": "Pages\\GestorReservaCliente\\ListarReservaCliente.cshtml",
       "FileKind": "mvc"
     },
     {

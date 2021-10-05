@@ -43,7 +43,7 @@ namespace Parking.app.Persistencia
 
         public IEnumerable<Reserva> getAllReservas()
         {
-             return _contexto.Reservas.Include("persona").Include("Vehiculo").Include("Parqueadero");
+             return _contexto.Reservas;//Include("persona").Include("Vehiculo").Include("Parqueadero");
         }
 
        

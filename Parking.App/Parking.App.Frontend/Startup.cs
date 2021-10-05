@@ -31,6 +31,7 @@ namespace Parking.App.Frontend
             services.AddSingleton<IRepositorioCliente>(new RepositorioCliente(new Persistencia.AppContext()));
             services.AddSingleton<IRepositorioAdministrador>(new RepositorioAdministrador(new Persistencia.AppContext()));
             services.AddSingleton<IRepositorioVehiculo>(new RepositorioVehiculo(new Persistencia.AppContext()));
+            services.AddSingleton<IRepositorioReserva>(new RepositorioReserva(new Persistencia.AppContext()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

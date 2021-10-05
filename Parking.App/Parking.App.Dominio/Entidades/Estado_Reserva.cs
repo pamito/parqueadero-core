@@ -6,7 +6,7 @@ namespace Parking.App.Dominio
     {
         Activo,
         Inactivo,
-        Canceldo,
+        Cancelado,
         Anulado
                
     }
