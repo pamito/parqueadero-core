@@ -195,7 +195,6 @@ D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReserva\EditarReserva.cshtml.g.cs
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReserva\EliminarReserva.cshtml.g.cs
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReserva\ListarReserva.cshtml.g.cs
-<<<<<<< HEAD
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\CrearAdministrador.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\DetalleAdministrador.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorAdministrador\EditarAdministrador.cshtml.g.cs
@@ -214,5 +213,4 @@ C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Front
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\EditarReservaCliente.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\ListarReservaCliente.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\CrearReservaCliente.cshtml.g.cs
-=======
 >>>>>>> 02cdb592357e0a1bd4a19ae50add46edcfad232a
