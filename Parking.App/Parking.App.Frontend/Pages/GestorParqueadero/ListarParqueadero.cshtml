@@ -1,0 +1,31 @@
+﻿@page
+@model Parking.App.Frontend.ListarParqueaderoModel
+@using Parking.App.Dominio
+@{
+}
+<h1>Gestionar Parqueadero</h1>
+<P>En está página podrá gestionar el parqueadero</P>
+
+<a class="btn btn-primary table-btn" asp-page="./CrearParqueadero">Agregar Parqueadero</a>
+<table class="table">
+  <thead class="thead-dark">
+    <tr> 
+      <th scope="col">Piso</th>
+      <th scope="col">Espacio</th>
+      <th scope="col">Estado</th>   
+    </tr>
+  </thead>
+
+@foreach(var parqueadero in Model.parqueaderos)
+{
+  <tr>     
+        <td>@parqueadero.Piso</td>
+        <td>@parqueadero.Espacio</td>
+        <td>@parqueadero.Estado</td>   
+        <td>
+            <a class="btn btn-primary table-btn" asp-page="./EditarParqueadero" asp-route-Id="@parqueadero.Id">Editar</a>
+        </td>    
+  </tr>
+}
+
+</table>

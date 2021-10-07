@@ -37,14 +37,14 @@ namespace Parking.app.Persistencia
 
         
 
-        public IEnumerable<Parqueadero> getAllParqueadero()
+        /*public IEnumerable<Parqueadero> getAllParqueadero()
         {
-            return _contexto.Parqueaderos.Include("cliente");
-        }
+            return _contexto.Parqueaderos;//.Include("cliente");
+        }*/
 
         public IEnumerable<Parqueadero> getAllParqueaderos()
         {
-            throw new System.NotImplementedException();
+            return _contexto.Parqueaderos;
         }
 
         public Parqueadero getParqueadero(string Espacio)
