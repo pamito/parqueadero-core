@@ -2,10 +2,13 @@
 @model Parking.App.Frontend.Pages.ListarAdministradorModel
 @{
 }
-<h1>Gestionar Administradores</h1>
+
+<div class = "center">
+<h3>Gestionar Administradores</h3>
 <p>En está pagina podrás gestionar los Administradores</p>
-<a class="btn btn-primary table-btn" asp-page="./CrearAdministrador">Agrega Administrador</a>
-<table class="table">
+<div class="form-group row" style="text-align: left:10%" id="detail"><a class="btn btn-primary table-btn" asp-page="./CrearAdministrador">Agrega Administrador</a></div>
+
+<table class="table table-dark" >
   <thead class="thead-dark">
     <tr>
       <th scope="col">Nombre</th>
@@ -19,18 +22,16 @@
   </thead>
 @foreach(var administrador in Model.administradores){
     <tr>
-        <td>@administrador.Nombre</td>
+        <td><b><a style="color:#FFC300" asp-page="./DetalleAdministrador" asp-route-id="@administrador.Id">@administrador.Nombre</a></b></td>
         <td>@administrador.Identificacion</td>
         <td>@administrador.Telefono</td>
         <td>@administrador.Direccion</td>
         <td>@administrador.Email</td>
         <td>@administrador.Contrasena</td>
         <td>@administrador.Fecha_nacimiento</td>
-        <td>
-            <a class="btn btn-primary table-btn" asp-page="./DetalleAdministrador" asp-route-id="@administrador.Id">Ver más</a>
-            <a class="btn btn-primary table-btn" asp-page="./EditarAdministrador" asp-route-id="@administrador.Id">Editar</a>
-            <a class="btn btn-primary table-btn" asp-page="./EliminarAdministrador" asp-route-id="@administrador.Id">Eliminar</a>
-        </td>  
+        <td><a class="btn btn-primary table-btn" asp-page="./EditarAdministrador" asp-route-id="@administrador.Id">Editar</a></td>
+        <td><a class="btn btn-primary table-btn" asp-page="./EliminarAdministrador" asp-route-id="@administrador.Id">Eliminar</a></td>  
     </tr>
 }
 </table>
+</div>

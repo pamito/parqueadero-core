@@ -2,14 +2,19 @@
 @model Parking.App.Frontend.DetalleAdministradorModel
 @{
 }
-h1>Detalle del Administrador @Model.administrador.Nombre</h1>
-<ul>
-       
-        <li>@Model.administrador.Identificacion</li>
-        <li>@Model.administrador.Telefono</li>
-        <li>@Model.administrador.Direccion</li>
-        <li>@Model.administrador.Email</li>
-        <li>@Model.administrador.Contrasena</li>
-        <li>@Model.administrador.Fecha_nacimiento</li>
-    
-</ul>
+
+<h3>Detalle del Administrador - @Model.administrador.Nombre</h3>
+<p>
+<p>
+        <br>
+        <br> 
+        <li>Nombre:  @Model.administrador.Nombre</li><br>    
+        <li>Identificacion:  @Model.administrador.Identificacion</li><br>        
+        <li>Telefono:  @Model.administrador.Telefono</li><br>        
+        <li>Direccion:  @Model.administrador.Direccion</li><br>        
+        <li>Email:  @Model.administrador.Email</li><br>        
+        <li>Contrasena:  @Model.administrador.Contrasena</li><br>        
+        <li>Fecha Nacimiento:  @Model.administrador.Fecha_nacimiento</li><br>        
+  
+<br><br>
+<a asp-page="./ListarAdministrador" class="btn btn-primary">Volver</a>

@@ -2,15 +2,19 @@
 @model Parking.App.Frontend.DetalleAuxiliarModel
 @{
 }
-<h1>Detalle del Auxiliar @Model.auxiliar.Nombre</h1>
-<ul>
-       
-        <li>@Model.auxiliar.Identificacion</li>
-        <li>@Model.auxiliar.Telefono</li>
-        <li>@Model.auxiliar.Direccion</li>
-        <li>@Model.auxiliar.Email</li>
-        <li>@Model.auxiliar.Contrasena</li>
-        <li>@Model.auxiliar.Fecha_nacimiento</li>
-        <li>@Model.auxiliar.Turno</li>
-    
-</ul>
+
+<h3>Detalle del Auxiliar @Model.auxiliar.Nombre</h3>
+<p>
+<p>
+        <br>
+        <br> 
+        <li>Nombre:  @Model.auxiliar.Nombre</li><br>    
+        <li>Identificacion:  @Model.auxiliar.Identificacion</li><br>        
+        <li>Telefono:  @Model.auxiliar.Telefono</li><br>        
+        <li>Direccion:  @Model.auxiliar.Direccion</li><br>        
+        <li>Email:  @Model.auxiliar.Email</li><br>        
+        <li>Contrasena:  @Model.auxiliar.Contrasena</li><br>        
+        <li>Fecha Nacimiento:  @Model.auxiliar.Fecha_nacimiento</li><br>        
+        <li>Turno:  @Model.auxiliar.Turno</li>    
+<br><br>
+<a asp-page="./index" class="btn btn-primary">Volver</a>

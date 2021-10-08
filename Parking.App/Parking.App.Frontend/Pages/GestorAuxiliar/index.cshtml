@@ -2,10 +2,13 @@
 @model Parking.App.Frontend.indexModel
 @{
 }
-<h1>Gestionar Auxiliares</h1>
+
+<div class = "center">
+<h3>Gestionar Auxiliares</h3>
 <p>En está pagina podrás gestionar los Auxiliares</p>
-<a class="btn btn-primary table-btn" asp-page="./CrearAuxiliar">Agrega Auxiliar</a>
-<table class="table">
+<div class="form-group row" style="text-align: left:10%" id="detail"><a class="btn btn-primary table-btn" asp-page="./CrearAuxiliar">Agrega Auxiliar</a></div>
+
+<table class="table table-dark" >
   <thead class="thead-dark">
     <tr>
       <th scope="col">Nombre</th>
@@ -16,11 +19,13 @@
       <th scope="col">Contraseña</th>
       <th scope="col">Fecha de Nacimiento</th>
       <th scope="col">Turno</th>
+      <th scope="col">▲</th>
+      <th scope="col">▼</th>
     </tr>
   </thead>
 @foreach(var auxiliar in Model.auxiliares){
     <tr>
-        <td>@auxiliar.Nombre</td>
+        <td><b><a style="color:#FFC300" asp-page="./DetalleAuxiliar" asp-route-id="@auxiliar.Id">@auxiliar.Nombre</a></b></td>
         <td>@auxiliar.Identificacion</td>
         <td>@auxiliar.Telefono</td>
         <td>@auxiliar.Direccion</td>
@@ -28,12 +33,15 @@
         <td>@auxiliar.Contrasena</td>
         <td>@auxiliar.Fecha_nacimiento</td>
         <td>@auxiliar.Turno</td>
-        <td>
-            <a class="btn btn-primary table-btn" asp-page="./DetalleAuxiliar" asp-route-id="@auxiliar.Id">Ver más</a>
-            <a class="btn btn-primary table-btn" asp-page="./EditarAuxiliar" asp-route-id="@auxiliar.Id">Editar</a>
-            <a class="btn btn-primary table-btn" asp-page="./EliminarAuxiliar" asp-route-id="@auxiliar.Id">Eliminar</a>
+        <td><a class="btn btn-primary table-btn" asp-page="./EditarAuxiliar" asp-route-id="@auxiliar.Id">Editar</a></td>
+        <td><a class="btn btn-primary table-btn" asp-page="./EliminarAuxiliar" asp-route-id="@auxiliar.Id">Eliminar</a>
         </td>  
     </tr>
 }
 </table>
+</div>
+
+
+
+
 

@@ -46,3 +46,15 @@ C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Domin
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.dll
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\ref\Parking.App.Dominio.dll
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.pdb
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.deps.json
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.dll
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\ref\Parking.App.Dominio.dll
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\bin\Debug\net5.0\Parking.App.Dominio.pdb
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.csproj.AssemblyReference.cache
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.AssemblyInfoInputs.cache
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.AssemblyInfo.cs
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.dll
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\ref\Parking.App.Dominio.dll
+C:\Parking\CriolloDevops\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Dominio\obj\Debug\net5.0\Parking.App.Dominio.pdb

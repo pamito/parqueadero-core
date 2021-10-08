@@ -3,10 +3,12 @@
 @{
 }
 
-<h1>Gestionar Gerentess</h1>
-<p>En está pagina podrás gestionar los Gerentes</p>
-<a class="btn btn-primary table-btn" asp-page="./CrearGerente">Agrega Gerente</a>
-<table class="table">
+<div class = "center">
+<h3>Gestionar Gerentes</h3>
+<p>En está pagina podrás gestionar los gerentes</p>
+<div class="form-group row" style="text-align: left:10%" id="detail"><a class="btn btn-primary table-btn" asp-page="./CrearGerente">Agrega Gerente</a></div>
+
+<table class="table table-dark" >
   <thead class="thead-dark">
     <tr>
       <th scope="col">Nombre</th>
@@ -21,20 +23,17 @@
   </thead>
 @foreach(var gerente in Model.gerentes){
     <tr>
-        <td>@gerente.Nombre</td>
+        <td><b><a style="color:#FFC300" asp-page="./Detallegerente" asp-route-id="@gerente.Id">@gerente.Nombre</a></b></td>
         <td>@gerente.Identificacion</td>
         <td>@gerente.Telefono</td>
         <td>@gerente.Direccion</td>
         <td>@gerente.Email</td>
         <td>@gerente.Contrasena</td>
         <td>@gerente.Fecha_nacimiento</td>
-       
-        <td>
-            <a class="btn btn-primary table-btn" asp-page="./DetalleGerente" asp-route-id="@gerente.Id">Ver más</a>
-            <a class="btn btn-primary table-btn" asp-page="./EditarGerente" asp-route-id="@gerente.Id">Editar</a>
-            <a class="btn btn-primary table-btn" asp-page="./EliminarGerente" asp-route-id="@gerente.Id">Eliminar</a>
-        </td>  
+        
+        <td><a class="btn btn-primary table-btn" asp-page="./Editargerente" asp-route-id="@gerente.Id">Editar</a></td>
+        <td><a class="btn btn-primary table-btn" asp-page="./Eliminargerente" asp-route-id="@gerente.Id">Eliminar</a></td>  
     </tr>
 }
 </table>
-
+</div>

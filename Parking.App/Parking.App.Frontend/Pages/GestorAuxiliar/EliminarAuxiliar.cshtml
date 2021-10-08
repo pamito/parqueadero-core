@@ -2,12 +2,29 @@
 @model Parking.App.Frontend.EliminarAuxiliarModel
 @{
 }
+<div class="center">
 <h1>Eliminar Auxiliar @Model.auxiliar.Nombre</h1>
 <form method="post" class="mt-3">
     <input hidden asp-for="auxiliar.Identificacion">
     <input hidden asp-for="auxiliar.IdAuxiliar">
-    <div class="form-group row">
+
+    <br>
+       
+
+        <li>Nombre:  @Model.auxiliar.Nombre</li><br>  
+        <li>Identificacion:  @Model.auxiliar.Identificacion</li><br>        
+        <li>Telefono:  @Model.auxiliar.Telefono</li><br>        
+        <li>Direccion:  @Model.auxiliar.Direccion</li><br>        
+        <li>Email:  @Model.auxiliar.Email</li><br>        
+        <li>Contrasena:  @Model.auxiliar.Contrasena</li><br>        
+        <li>Fecha Nacimiento:  @Model.auxiliar.Fecha_nacimiento</li><br>        
+        <li>Turno:  @Model.auxiliar.Turno</li>    
+    <br><br>
+    <div>
         <button type="submit" class="btn btn-primary">Eliminar</button>
         <a asp-page="./index" class="btn btn-primary">Cancelar</a>
     </div>
 </form>
+</div>
+
+

@@ -2,15 +2,19 @@
 @model Parking.App.Frontend.DetalleGerenteModel
 @{
 }
-h1>Detalle del Auxiliar @Model.gerente.Nombre</h1>
-<ul>
-       
-        <li>@Model.gerente.Identificacion</li>
-        <li>@Model.gerente.Telefono</li>
-        <li>@Model.gerente.Direccion</li>
-        <li>@Model.gerente.Email</li>
-        <li>@Model.gerente.Contrasena</li>
-        <li>@Model.gerente.Fecha_nacimiento</li>
-        
-    
-</ul>
+
+<h3>Detalle del gerente - @Model.gerente.Nombre</h3>
+<p>
+<p>
+        <br>
+        <br> 
+        <li>Nombre:  @Model.gerente.Nombre</li><br>    
+        <li>Identificacion:  @Model.gerente.Identificacion</li><br>        
+        <li>Telefono:  @Model.gerente.Telefono</li><br>        
+        <li>Direccion:  @Model.gerente.Direccion</li><br>        
+        <li>Email:  @Model.gerente.Email</li><br>        
+        <li>Contrasena:  @Model.gerente.Contrasena</li><br>        
+        <li>Fecha Nacimiento:  @Model.gerente.Fecha_nacimiento</li><br>        
+  
+<br><br>
+<a asp-page="./Listargerente" class="btn btn-primary">Volver</a>
