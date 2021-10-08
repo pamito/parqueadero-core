@@ -46,13 +46,10 @@ namespace Parking.App.Frontend
                 {
                     Cliente cliente = repositorioCliente.getCliente(IdCliente);
 
-
-                    //Se agrega tal cual, por problema del framework al intentar editar el objeto el ID se establece
                     repositorioVehiculo.addVehiculo(vehiculo);
 
                     vehiculo.Cliente = cliente;
-
-                    repositorioVehiculo.editVehiculo(vehiculo);
+                  
 
                     return RedirectToPage("./ListarVehiculo");
                 }

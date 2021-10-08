@@ -1,0 +1,5 @@
+#ignora la caprtasa obj
+obj/
+
+#ingora la carpeta bin
+bin/
