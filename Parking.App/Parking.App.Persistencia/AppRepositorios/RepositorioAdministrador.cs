@@ -22,7 +22,7 @@ namespace Parking.app.Persistencia
 
         public Administrador editAdministrador(Administrador administrador)
         {
-            Administrador administradorAEditar = _contexto.Administradores.FirstOrDefault(f => f.IdAdministrador == administrador.IdAdministrador);
+            Administrador administradorAEditar = _contexto.Administradores.FirstOrDefault(f => f.Id == administrador.Id);
             if(administradorAEditar != null){
                 administradorAEditar.Nombre = administrador.Nombre;
                 administradorAEditar.Identificacion = administrador.Identificacion;

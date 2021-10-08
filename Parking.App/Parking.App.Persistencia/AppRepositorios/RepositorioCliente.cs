@@ -22,7 +22,7 @@ namespace Parking.App.Persistencia
 
         public Cliente editCliente(Cliente cliente)
         {
-            Cliente clienteAEditar = _contexto.Clientes.FirstOrDefault(c=> c.IdCliente == cliente.IdCliente);
+            Cliente clienteAEditar = _contexto.Clientes.FirstOrDefault(c=> c.Id == cliente.Id);
             if(clienteAEditar != null)
             {
                 clienteAEditar.Identificacion= cliente.Identificacion;
@@ -45,9 +45,9 @@ namespace Parking.App.Persistencia
         }
 
 
-        public Cliente getCliente(string Identificacion)
+        public Cliente getCliente(int Id)
         {
-            return _contexto.Clientes.FirstOrDefault(x=> x.Identificacion == Identificacion);
+            return _contexto.Clientes.FirstOrDefault(x=> x.Id == Id);
         }
 
         public void removeCliente(string Identificacion)

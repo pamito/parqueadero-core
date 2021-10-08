@@ -14,6 +14,6 @@ namespace Parking.App.Persistencia
         //Eliminar Cliente
         void removeCliente(string Identificacion);
 
-        Cliente getCliente(string Identificacion);
+        Cliente getCliente(int Id);
     }
 }

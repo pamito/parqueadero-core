@@ -12,8 +12,8 @@ namespace Parking.App.Persistencia
         //Editar Parqueadero
         Parqueadero editParqueadero(Parqueadero Parqueadero);
         //Eliminar Parqueadero
-        void removeParqueadero(string Espacio);
+        void removeParqueadero(int Id);
 
-        Parqueadero getParqueadero(string Espacio);
+        Parqueadero getParqueadero(int Id);
     }
 }

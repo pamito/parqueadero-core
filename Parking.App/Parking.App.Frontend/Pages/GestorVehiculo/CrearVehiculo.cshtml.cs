@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Parking.App.Dominio;
 using Parking.App.Persistencia;
 
@@ -11,21 +12,62 @@ namespace Parking.App.Frontend
 {
     public class CrearVehiculoModel : PageModel
     {
- private IRepositorioVehiculo repositorioVehiculo;
+        private readonly IRepositorioVehiculo repositorioVehiculo;
+        private readonly IRepositorioCliente repositorioCliente;
         public Vehiculo vehiculo { get; set; }
+        public List<SelectListItem> clientes { get; set; }
 
-        public CrearVehiculoModel (IRepositorioVehiculo repositorioVehiculo)
+        public int IdCliente { get; set; }
+
+        public CrearVehiculoModel(IRepositorioVehiculo repositorioVehiculo, IRepositorioCliente repositorioCliente)
         {
             this.repositorioVehiculo = repositorioVehiculo;
+            this.repositorioCliente = repositorioCliente;
+            vehiculo = new Vehiculo();
+            clientes = repositorioCliente.getAllClientes().Select(
+                c => new SelectListItem
+                {
+                    Text = c.Identificacion,
+                    Value = Convert.ToString(c.Id)
+                }
+            ).ToList();
         }
         public void OnGet()
         {
-            Vehiculo vehiculo = new Vehiculo();
+            // Vehiculo vehiculo = new Vehiculo();
         }
-        public IActionResult OnPost (Vehiculo vehiculo)
+        public ActionResult OnPost(Vehiculo vehiculo, int IdCliente)
         {
-            repositorioVehiculo.addVehiculo(vehiculo);
-            return RedirectToPage("./ListarVehiculo");
+            //repositorioVehiculo.addVehiculo(vehiculo);
+            //return RedirectToPage("./ListarVehiculo");
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    Cliente cliente = repositorioCliente.getCliente(IdCliente);
+
+
+                    //Se agrega tal cual, por problema del framework al intentar editar el objeto el ID se establece
+                    repositorioVehiculo.addVehiculo(vehiculo);
+
+                    vehiculo.Cliente = cliente;
+
+                    repositorioVehiculo.editVehiculo(vehiculo);
+
+                    return RedirectToPage("./ListarVehiculo");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    return RedirectToPage("../Error");
+                }
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }
+
+

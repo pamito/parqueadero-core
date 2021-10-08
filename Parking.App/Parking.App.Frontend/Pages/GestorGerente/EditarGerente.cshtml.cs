@@ -7,24 +7,33 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Parking.App.Dominio;
 using Parking.App.Persistencia;
 
-namespace Parking.App.Frontend.Pages
+namespace Parking.App.Frontend
 {
     public class EditarGerenteModel : PageModel
     {
-        private readonly IRepositorioGerente repositorioGerente ;
+       private readonly IRepositorioGerente repositorioGerente;
         public Gerente gerente { get; set; }
+        public EditarGerenteModel(IRepositorioGerente repositorioGerente)
+        {
+            this.repositorioGerente = repositorioGerente;
+        }
+        public void OnGet(int Id)
+        {
+            gerente = repositorioGerente.getGerente(Id);
+        }
 
-        public EditarGerenteModel(IRepositorioGerente repositorioGerente){
-            this.repositorioGerente = repositorioGerente; 
-        }
-        public void OnGet(string Identificacion)
+        public IActionResult OnPost(Gerente gerente)
         {
-            gerente = repositorioGerente.getGerente(Identificacion);
-        }
-        public IActionResult OnPost (Gerente gerente)
-        {
-            repositorioGerente.editGerente(gerente);
-            return RedirectToPage("./ListarGerente");
+            if (ModelState.IsValid)
+            {
+                repositorioGerente.editGerente(gerente);
+                return RedirectToPage ("./ListarGerente");
+            }
+            else
+            {
+                return Page();
+            }
+
         }
     }
 }

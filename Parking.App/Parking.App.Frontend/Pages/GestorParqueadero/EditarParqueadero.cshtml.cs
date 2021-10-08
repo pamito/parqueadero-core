@@ -18,9 +18,9 @@ namespace Parking.App.Frontend
         {
             this.repositorioparqueadero = repositorioparqueadero;
         }
-        public void OnGet(string Espacio)
+        public void OnGet(int Id)
         {
-            parqueadero = repositorioparqueadero.getParqueadero(Espacio);
+            parqueadero = repositorioparqueadero.getParqueadero(Id);
         }
         public IActionResult OnPost(Parqueadero Parqueadero)
         {            

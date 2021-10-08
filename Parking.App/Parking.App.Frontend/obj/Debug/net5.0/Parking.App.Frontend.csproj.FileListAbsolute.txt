@@ -166,9 +166,7 @@ C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Front
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\EliminarGerente.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\DetalleGerente.cshtml.g.cs
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\CrearGerente.cshtml.g.cs
-D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\DetalleGerente.cshtml.g.cs
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\EditarGerente.cshtml.g.cs
-D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\EliminarGerente.cshtml.g.cs
 D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorVehiculo\ListarVehiculo.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorCliente\ListarCliente.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorVehiculo\ListarVehiculo.cshtml.g.cs
@@ -214,3 +212,14 @@ C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Front
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\ListarReservaCliente.cshtml.g.cs
 C:\ciclo3\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\CrearReservaCliente.cshtml.g.cs
 >>>>>>> 02cdb592357e0a1bd4a19ae50add46edcfad232a
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorParqueadero\CrearParqueadero.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorParqueadero\DetalleParqueadero.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorParqueadero\EditarParqueadero.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorParqueadero\EliminarParqueadero.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorParqueadero\ListarParqueadero.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\CrearReservaCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\DetalleReservaCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\EditarReservaCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorReservaCliente\ListarReservaCliente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\DetalleGerente.cshtml.g.cs
+D:\Parking\MisionTic-Parking-Criollo-sDevop\Parking.App\Parking.App.Frontend\obj\Debug\net5.0\Razor\Pages\GestorGerente\EliminarGerente.cshtml.g.cs

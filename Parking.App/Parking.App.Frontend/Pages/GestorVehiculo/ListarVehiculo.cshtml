@@ -14,6 +14,8 @@
       <th scope="col">Color</th>
       <th scope="col">Tipo</th>
       <th scope="col">Placa</th>
+      <th scope="col">Cliente</th>
+      <th scope="col">Identificacion</th>
       
   
     
@@ -27,6 +29,8 @@
         <td>@vehiculo.Color</td>
         <td>@vehiculo.Tipo</td>
         <td>@vehiculo.Placa</td>
+       
+        
         <td>
             <a class="btn btn-primary table-btn" asp-page="./DetalleVehiculo" asp-route-id="@vehiculo.Id">Ver más</a>
             <a class="btn btn-primary table-btn" asp-page="./EditarVehiculo" asp-route-id="@vehiculo.Id">Editar</a>

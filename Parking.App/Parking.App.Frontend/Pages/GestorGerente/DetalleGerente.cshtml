@@ -1,15 +1,16 @@
 ﻿@page
-@model Parking.App.Frontend.Pages.DetalleGerenteModel
+@model Parking.App.Frontend.DetalleGerenteModel
 @{
 }
-<h1>Detalle del Gerente @Model.gerente.Nombre</h1>
+h1>Detalle del Auxiliar @Model.gerente.Nombre</h1>
 <ul>
        
-        <li>Número de Identificación: @Model.gerente.Identificacion</li>
-        <li>Número Telefonico: @Model.gerente.Telefono</li>
-        <li>Dirección:@Model.gerente.Direccion</li>
-        <li>Correo electronico: @Model.gerente.Email</li>
-        <li>Contraseña: @Model.gerente.Contrasena</li>
- 
+        <li>@Model.gerente.Identificacion</li>
+        <li>@Model.gerente.Telefono</li>
+        <li>@Model.gerente.Direccion</li>
+        <li>@Model.gerente.Email</li>
+        <li>@Model.gerente.Contrasena</li>
+        <li>@Model.gerente.Fecha_nacimiento</li>
+        
     
 </ul>

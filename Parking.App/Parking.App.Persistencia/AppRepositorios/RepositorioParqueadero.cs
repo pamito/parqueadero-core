@@ -23,7 +23,7 @@ namespace Parking.app.Persistencia
 
         public Parqueadero editParqueadero(Parqueadero Parqueadero)
         {
-            Parqueadero ParqueaderoAEditar = _contexto.Parqueaderos.FirstOrDefault(f => f.Espacio == Parqueadero.Espacio);
+            Parqueadero ParqueaderoAEditar = _contexto.Parqueaderos.FirstOrDefault(f => f.Id == Parqueadero.Id);
             if(ParqueaderoAEditar != null){
                 ParqueaderoAEditar.Piso = Parqueadero.Piso;
                 ParqueaderoAEditar.Espacio =Parqueadero.Espacio;
@@ -47,15 +47,15 @@ namespace Parking.app.Persistencia
             return _contexto.Parqueaderos;
         }
 
-        public Parqueadero getParqueadero(string Espacio)
+        public Parqueadero getParqueadero(int Id)
         {
-             Parqueadero Parqueadero = _contexto.Parqueaderos.FirstOrDefault(x => x.Espacio == Espacio);
+             Parqueadero Parqueadero = _contexto.Parqueaderos.FirstOrDefault(x => x.Id == Id);
              return Parqueadero;
         }
 
-        public void removeParqueadero(string Espacio)
+        public void removeParqueadero(int Id)
         {
-            Parqueadero Parqueadero = _contexto.Parqueaderos.FirstOrDefault(x => x.Espacio == Espacio);
+            Parqueadero Parqueadero = _contexto.Parqueaderos.FirstOrDefault(x => x.Id == Id);
             if(Parqueadero != null){
                 _contexto.Parqueaderos.Remove(Parqueadero);
                 _contexto.SaveChanges();

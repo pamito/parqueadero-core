@@ -7,18 +7,19 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Parking.App.Dominio;
 using Parking.App.Persistencia;
 
-namespace Parking.App.Frontend.Pages
+namespace Parking.App.Frontend
 {
     public class DetalleGerenteModel : PageModel
-    {     private readonly IRepositorioGerente repositorioGerente ;
+    {
+       private readonly IRepositorioGerente repositorioGerente;
         public Gerente gerente { get; set; }
 
         public DetalleGerenteModel(IRepositorioGerente repositorioGerente){
-            this.repositorioGerente = repositorioGerente; 
+            this.repositorioGerente = repositorioGerente;
         }
-        public void OnGet(string Identificacion)
+        public void OnGet(int Id)
         {
-            gerente = repositorioGerente.getGerente(Identificacion);
+            gerente = repositorioGerente.getGerente(Id);
         }
     }
 }

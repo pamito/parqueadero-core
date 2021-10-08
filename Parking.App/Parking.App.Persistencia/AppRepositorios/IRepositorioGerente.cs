@@ -14,6 +14,6 @@ namespace Parking.App.Persistencia
         //Eliminar Gerente
         void removeGerente(string Identificacion);
 
-        Gerente getGerente(string Identificacion);
+        Gerente getGerente(int Id);
     }
 }

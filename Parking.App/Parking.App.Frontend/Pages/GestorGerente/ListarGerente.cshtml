@@ -2,9 +2,10 @@
 @model Parking.App.Frontend.ListarGerenteModel
 @{
 }
-<h1>Gestionar Gerente</h1>
-<P>En esta pagina podras Gestionar los gerentes</P>
-<a class="btn btn-primary table-btn" asp-page="./CrearGerente">Agregar Gerente</a>
+
+<h1>Gestionar Gerentess</h1>
+<p>En está pagina podrás gestionar los Gerentes</p>
+<a class="btn btn-primary table-btn" asp-page="./CrearGerente">Agrega Gerente</a>
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -14,25 +15,26 @@
       <th scope="col">Direccion</th>
       <th scope="col">Email</th>
       <th scope="col">Contraseña</th>
-      <th scope="col">Acciones</th>
-  
-    
+      <th scope="col">Fecha de Nacimiento</th>
+      <th scope="col">Turno</th>
     </tr>
   </thead>
-
 @foreach(var gerente in Model.gerentes){
- <tr>
+    <tr>
         <td>@gerente.Nombre</td>
         <td>@gerente.Identificacion</td>
         <td>@gerente.Telefono</td>
         <td>@gerente.Direccion</td>
         <td>@gerente.Email</td>
         <td>@gerente.Contrasena</td>
-        <td><a class="btn btn-primary table-btn" asp-page="./DetalleGerente" asp-route-Identificacion="@gerente.Identificacion">Ver más</a>
-          <br>
-          <a class="btn btn-primary table-btn" asp-page="./EditarGerente" asp-route-Identificacion="@gerente.Identificacion">Editar</a></td>
+        <td>@gerente.Fecha_nacimiento</td>
+       
         <td>
-          
+            <a class="btn btn-primary table-btn" asp-page="./DetalleGerente" asp-route-id="@gerente.Id">Ver más</a>
+            <a class="btn btn-primary table-btn" asp-page="./EditarGerente" asp-route-id="@gerente.Id">Editar</a>
+            <a class="btn btn-primary table-btn" asp-page="./EliminarGerente" asp-route-id="@gerente.Id">Eliminar</a>
+        </td>  
     </tr>
 }
 </table>
+

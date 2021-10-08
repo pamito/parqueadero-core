@@ -13,7 +13,8 @@ namespace Parking.App.Frontend
     {
         private IRepositorioGerente repositorioGerente;
         public Gerente gerente { get; set; }
-        public CrearGerenteModel(IRepositorioGerente repositorioGerente)
+
+        public CrearGerenteModel (IRepositorioGerente repositorioGerente)
         {
             this.repositorioGerente = repositorioGerente;
         }
@@ -23,14 +24,8 @@ namespace Parking.App.Frontend
         }
         public IActionResult OnPost (Gerente gerente)
         {
-            try{
-              repositorioGerente.addGerente(gerente);
-              return RedirectToPage("./ListarGerente");
-            }
-            catch{
-                return RedirectToPage("../Error");
-            }
-            
+            repositorioGerente.addGerente(gerente);
+            return RedirectToPage("./ListarGerente");
         }
     }
 }

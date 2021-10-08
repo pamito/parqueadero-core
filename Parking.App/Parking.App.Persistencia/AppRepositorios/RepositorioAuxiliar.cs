@@ -22,7 +22,7 @@ namespace Parking.app.Persistencia
 
         public Auxiliar editAuxiliar(Auxiliar auxiliar)
         {
-            Auxiliar auxiliarAEditar = _contexto.Auxiliares.FirstOrDefault(f => f.IdAuxiliar == auxiliar.IdAuxiliar);
+            Auxiliar auxiliarAEditar = _contexto.Auxiliares.FirstOrDefault(f => f.Id == auxiliar.Id);
             if(auxiliarAEditar != null){
                 auxiliarAEditar.Nombre = auxiliar.Nombre;
                 auxiliarAEditar.Identificacion = auxiliar.Identificacion;

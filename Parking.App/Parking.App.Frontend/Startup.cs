@@ -26,12 +26,15 @@ namespace Parking.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<IRepositorioAuxiliar>(new RepositorioAuxiliar(new Persistencia.AppContext()));
-            services.AddSingleton<IRepositorioGerente>(new RepositorioGerente(new Persistencia.AppContext()));
-            services.AddSingleton<IRepositorioCliente>(new RepositorioCliente(new Persistencia.AppContext()));
-            services.AddSingleton<IRepositorioAdministrador>(new RepositorioAdministrador(new Persistencia.AppContext()));
-            services.AddSingleton<IRepositorioVehiculo>(new RepositorioVehiculo(new Persistencia.AppContext()));
-            services.AddSingleton<IRepositorioReserva>(new RepositorioReserva(new Persistencia.AppContext()));
+            Persistencia.AppContext _contexto = new Persistencia.AppContext();
+            services.AddSingleton<IRepositorioAuxiliar>(new RepositorioAuxiliar(_contexto));
+            services.AddSingleton<IRepositorioGerente>(new RepositorioGerente(_contexto));
+            services.AddSingleton<IRepositorioCliente>(new RepositorioCliente(_contexto));
+            services.AddSingleton<IRepositorioAdministrador>(new RepositorioAdministrador(_contexto));
+            services.AddSingleton<IRepositorioVehiculo>(new RepositorioVehiculo(_contexto));
+            services.AddSingleton<IRepositorioReserva>(new RepositorioReserva(_contexto));
+            services.AddSingleton<IRepositorioParqueadero>(new RepositorioParqueadero(_contexto));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
