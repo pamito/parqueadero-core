@@ -1,4 +1,17 @@
 ﻿@page
-@model Parking.App.Frontend.Pages.DetalleClienteModel
+@model Parking.App.Frontend.DetalleClienteModel
 @{
 }
+
+h1>Detalle del Auxiliar @Model.cliente.Nombre</h1>
+<ul>
+       
+        <li>@Model.cliente.Identificacion</li>
+        <li>@Model.cliente.Telefono</li>
+        <li>@Model.cliente.Direccion</li>
+        <li>@Model.cliente.Email</li>
+        <li>@Model.cliente.Contrasena</li>
+        <li>@Model.cliente.Fecha_nacimiento</li>
+        
+    
+</ul>

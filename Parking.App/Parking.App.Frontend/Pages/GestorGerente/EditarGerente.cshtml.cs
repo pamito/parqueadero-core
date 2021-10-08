@@ -21,7 +21,6 @@ namespace Parking.App.Frontend
         {
             gerente = repositorioGerente.getGerente(Id);
         }
-
         public IActionResult OnPost(Gerente gerente)
         {
             if (ModelState.IsValid)

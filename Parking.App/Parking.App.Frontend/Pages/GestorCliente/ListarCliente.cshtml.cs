@@ -7,20 +7,19 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Parking.App.Dominio;
 using Parking.App.Persistencia;
 
-namespace Parking.App.Frontend.Pages
+namespace Parking.App.Frontend
 {
     public class ListarClienteModel : PageModel
     {
-        public IEnumerable<Cliente>clientes ;
-        private readonly IRepositorioCliente repositoriocliente;
-        public ListarClienteModel(IRepositorioCliente repositoriocliente)
+        private readonly IRepositorioCliente repositorioCliente;
+        public ListarClienteModel(IRepositorioCliente repositorioCliente)
         {
-            this.repositoriocliente = repositoriocliente;
+            this.repositorioCliente = repositorioCliente;
         }
+        public IEnumerable<Cliente>clientes;
         public void OnGet()
         {
-            clientes = repositoriocliente.getAllClientes();
+            clientes=repositorioCliente.getAllCliente();
         }
     }
 }
-

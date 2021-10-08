@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Parking.App.Dominio;
 using Parking.App.Persistencia;
 
-namespace Parking.App.Frontend.Pages
+namespace Parking.App.Frontend
 {
     public class EditarClienteModel : PageModel
     {
-private readonly IRepositorioCliente repositorioCliente;
+        private readonly IRepositorioCliente repositorioCliente;
         public Cliente cliente { get; set; }
         public EditarClienteModel(IRepositorioCliente repositorioCliente)
         {
@@ -21,12 +21,11 @@ private readonly IRepositorioCliente repositorioCliente;
         {
             cliente = repositorioCliente.getCliente(Id);
         }
-
-        public IActionResult OnPost(Cliente Cliente)
+        public IActionResult OnPost(Cliente cliente)
         {
             if (ModelState.IsValid)
             {
-                repositorioCliente.editCliente(Cliente);
+                repositorioCliente.editCliente(cliente);
                 return RedirectToPage ("./ListarCliente");
             }
             else

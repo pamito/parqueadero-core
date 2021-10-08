@@ -1,4 +1,13 @@
 ﻿@page
-@model Parking.App.Frontend.Pages.EliminarClienteModel
+@model Parking.App.Frontend.EliminarClienteModel
 @{
 }
+<h1>Eliminar Cliente @Model.cliente.Nombre</h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="cliente.Identificacion">
+    <input hidden asp-for="cliente.IdCliente">
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Eliminar</button>
+        <a asp-page="./ListarCliente" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

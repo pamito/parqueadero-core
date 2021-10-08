@@ -7,13 +7,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Parking.App.Dominio;
 using Parking.App.Persistencia;
 
-namespace Parking.App.Frontend.Pages
+namespace Parking.App.Frontend
 {
     public class CrearClienteModel : PageModel
     {
         private IRepositorioCliente repositorioCliente;
         public Cliente cliente { get; set; }
-        public CrearClienteModel(IRepositorioCliente repositorioCliente)
+
+        public CrearClienteModel (IRepositorioCliente repositorioCliente)
         {
             this.repositorioCliente = repositorioCliente;
         }
@@ -23,14 +24,8 @@ namespace Parking.App.Frontend.Pages
         }
         public IActionResult OnPost (Cliente cliente)
         {
-            try{
-              repositorioCliente.addCliente(cliente);
-              return RedirectToPage("./ListarCliente");
-            }
-            catch{
-                return RedirectToPage("../Error");
-            }
-            
+            repositorioCliente.addCliente(cliente);
+            return RedirectToPage("./ListarCliente");
         }
     }
 }

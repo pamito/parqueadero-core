@@ -22,7 +22,7 @@ namespace Parking.App.Frontend
         {
             this.repositorioVehiculo = repositorioVehiculo;
             this.repositorioCliente = repositorioCliente;
-            clientes = repositorioCliente.getAllClientes().Select(
+            clientes = repositorioCliente.getAllCliente().Select(
                 c => new SelectListItem
                 {
                     Text = c.Identificacion,

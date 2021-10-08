@@ -39,7 +39,7 @@ namespace Parking.App.Persistencia
             return clienteAEditar;
         }
 
-        public IEnumerable<Cliente> getAllClientes()
+        public IEnumerable<Cliente> getAllCliente()
         {
            return _contexto.Clientes;
         }

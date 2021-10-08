@@ -1,39 +1,37 @@
 ﻿@page
-@model Parking.App.Frontend.Pages.ListarClienteModel
+@model Parking.App.Frontend.ListarClienteModel
 @{
 }
-<h1>Gestionar Cliente</h1>
-<P>En esta pagina podras Gestionar los Clientes</P>
-<a class ="btn btn-primary table-btn"asp-page="./CrearCliente">Agregar Cliente</a>
+<h1>Gestionar Clientes</h1>
+<p>En está pagina podrás gestionar los Clientes</p>
+<a class="btn btn-primary table-btn" asp-page="./CrearCliente">Agregar Cliente</a>
 <table class="table">
-    <thead class="thead-dark">
-        <tr>
-            <th scope="col">Nombre</th>
-            <th scope="col">Identificacion</th>
-            <th scope="col">Telefono</th>
-            <th scope="col">Direccion</th>
-            <th scope="col">Email</th>
-            <th scope="col">Contraseña</th>
-            <th scope="col">Fecha de registro</th>
-            <th scope="col">Fecha de nacimiento</th>            
-            <th scope="col">Acciones</th>            
-        </tr>
-    </thead>
-    @foreach(var cliente in Model.clientes)
-    {
-        <tr>
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Identificacion</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Email</th>
+      <th scope="col">Fecha de Nacimiento</th>
+      
+    </tr>
+  </thead>
+@foreach(var cliente in Model.clientes){
+    <tr>
         <td>@cliente.Nombre</td>
         <td>@cliente.Identificacion</td>
         <td>@cliente.Telefono</td>
         <td>@cliente.Direccion</td>
         <td>@cliente.Email</td>
-        <td>@cliente.Contrasena</td>
-        <td>@cliente.fecha_Registro</td>
-        <td>@cliente.Fecha_nacimiento</td>        
-        <td><a class="btn btn-primary table-btn" asp-page="./DetalleCliente" asp-route-Identificacion="@cliente.Identificacion">Ver más</a>
-          <br>
-          <a class="btn btn-primary table-btn" asp-page="./EditarCliente" asp-route-Identificacion="@cliente.Identificacion">Editar</a></td>
-        <td>            
-        </tr>
+        <td>@cliente.Fecha_nacimiento</td>
+       
+        <td>
+            <a class="btn btn-primary table-btn" asp-page="./DetalleCliente" asp-route-id="@cliente.Id">Ver más</a>
+            <a class="btn btn-primary table-btn" asp-page="./EditarCliente" asp-route-id="@cliente.Id">Editar</a>
+            <a class="btn btn-primary table-btn" asp-page="./EliminarCliente" asp-route-id="@cliente.Id">Eliminar</a>
+        </td>  
+    </tr>
+}
+</table>
 
-    }

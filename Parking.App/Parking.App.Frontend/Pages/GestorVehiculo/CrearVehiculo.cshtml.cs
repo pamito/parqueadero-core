@@ -24,7 +24,7 @@ namespace Parking.App.Frontend
             this.repositorioVehiculo = repositorioVehiculo;
             this.repositorioCliente = repositorioCliente;
             vehiculo = new Vehiculo();
-            clientes = repositorioCliente.getAllClientes().Select(
+            clientes = repositorioCliente.getAllCliente().Select(
                 c => new SelectListItem
                 {
                     Text = c.Identificacion,
