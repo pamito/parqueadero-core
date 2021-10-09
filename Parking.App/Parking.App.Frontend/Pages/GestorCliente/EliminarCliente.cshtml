@@ -2,12 +2,26 @@
 @model Parking.App.Frontend.EliminarClienteModel
 @{
 }
-<h1>Eliminar Cliente @Model.cliente.Nombre</h1>
+<div class="center">
+<h3>Eliminar Cliente @Model.cliente.Nombre</h3>
 <form method="post" class="mt-3">
     <input hidden asp-for="cliente.Identificacion">
     <input hidden asp-for="cliente.IdCliente">
-    <div class="form-group row">
+    <br>
+    <li>Nombre:  @Model.cliente.Nombre</li><br>
+    <li>Identificacion: @Model.cliente.Identificacion</li><br>
+    <li>Telefono:  @Model.cliente.Telefono</li><br>
+    <li>Direccion:  @Model.cliente.Direccion</li><br>
+    <li>Email:  @Model.cliente.Email</li><br>
+    <li>Contrasena:  @Model.cliente.Contrasena</li><br>
+    <li>Fecha de Nacimiento: @Model.cliente.Fecha_nacimiento</li><br>
+    <li>Fecha de Registro: @Model.cliente.fecha_Registro</li><br>
+
+
+    <br><br>
+    <div>
         <button type="submit" class="btn btn-primary">Eliminar</button>
         <a asp-page="./ListarCliente" class="btn btn-primary">Cancelar</a>
     </div>
 </form>
+</div>

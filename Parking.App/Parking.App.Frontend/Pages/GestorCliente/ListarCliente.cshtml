@@ -2,10 +2,12 @@
 @model Parking.App.Frontend.ListarClienteModel
 @{
 }
-<h1>Gestionar Clientes</h1>
+<div class = "center">
+<h3>Gestionar Clientes</h3>
 <p>En está pagina podrás gestionar los Clientes</p>
-<a class="btn btn-primary table-btn" asp-page="./CrearCliente">Agregar Cliente</a>
-<table class="table">
+<div class="form-group row" style="text-align: left:10%" id="detail"><a class="btn btn-primary table-btn" asp-page="./CrearCliente">Agregar Cliente</a></div>
+
+<table class="table table-dark">
   <thead class="thead-dark">
     <tr>
       <th scope="col">Nombre</th>
@@ -14,12 +16,14 @@
       <th scope="col">Direccion</th>
       <th scope="col">Email</th>
       <th scope="col">Fecha de Nacimiento</th>
+      <th scope="col">▲</th>
+      <th scope="col">▼</th>
       
     </tr>
   </thead>
 @foreach(var cliente in Model.clientes){
     <tr>
-        <td>@cliente.Nombre</td>
+        <td><b><a style="color:#FFC300" asp-page="./DetalleCliente" asp-route-id="@cliente.Id">@cliente.Nombre</a></b></td>
         <td>@cliente.Identificacion</td>
         <td>@cliente.Telefono</td>
         <td>@cliente.Direccion</td>
@@ -27,11 +31,10 @@
         <td>@cliente.Fecha_nacimiento</td>
        
         <td>
-            <a class="btn btn-primary table-btn" asp-page="./DetalleCliente" asp-route-id="@cliente.Id">Ver más</a>
             <a class="btn btn-primary table-btn" asp-page="./EditarCliente" asp-route-id="@cliente.Id">Editar</a>
             <a class="btn btn-primary table-btn" asp-page="./EliminarCliente" asp-route-id="@cliente.Id">Eliminar</a>
         </td>  
     </tr>
 }
 </table>
-
+</div>

@@ -3,15 +3,18 @@
 @{
 }
 
-h1>Detalle del Auxiliar @Model.cliente.Nombre</h1>
-<ul>
-       
-        <li>@Model.cliente.Identificacion</li>
-        <li>@Model.cliente.Telefono</li>
-        <li>@Model.cliente.Direccion</li>
-        <li>@Model.cliente.Email</li>
-        <li>@Model.cliente.Contrasena</li>
-        <li>@Model.cliente.Fecha_nacimiento</li>
+<h3>Detalle del Auxiliar @Model.cliente.Nombre</h3>
+<p>
+<p>
+        <br>
+        <br> 
+        <li>Nombre:  @Model.cliente.Nombre</li><br>
+        <li>Identificacion:  @Model.cliente.Identificacion</li><br>
+        <li>Telefono:  @Model.cliente.Telefono</li><br>
+        <li>Direccion:  @Model.cliente.Direccion</li><br>
+        <li>Email:  @Model.cliente.Email</li><br>
+        <li>Contrasena:  @Model.cliente.Contrasena</li><br>
+        <li>Fecha de nacimiento:  @Model.cliente.Fecha_nacimiento</li><br>
         
-    
-</ul>
+    <br><br>
+<a asp-page="./ListarCliente" class="btn btn-primary">Volver</a>
