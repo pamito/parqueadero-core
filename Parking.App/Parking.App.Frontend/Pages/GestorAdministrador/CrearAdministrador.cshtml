@@ -9,22 +9,26 @@
     <div class="form-row">
 	<div class="form-group col-md-6">
         <label asp-for="administrador.Nombre" class="col-sm-2">Nombre</label>
-        <input asp-for="administrador.Nombre" class="form-control" placeholder="Nombre Usuario" value="" required >        
-	</div>
+        <input asp-for="administrador.Nombre" class="form-control" placeholder="Nombre Usuario" value=""  >        
+	    <span class ="text-danger" asp-validation-for="administrador.Nombre"></span>
+    </div>
 	<div class="form-group col-md-6">
         <label asp-for="administrador.Identificacion" class="col-sm-2">Identificacion</label>
-        <input asp-for="administrador.Identificacion" class="form-control" placeholder="Identificacion Usuario" value="" required>        
+        <input asp-for="administrador.Identificacion" class="form-control" placeholder="Identificacion Usuario" value="" >        
+        <span class ="text-danger" asp-validation-for="administrador.Identificacion"></span>
     </div>	   
     
 
 	<div class="form-group col-md-6">  
         <label asp-for="administrador.Telefono" class="col-sm-2">Telefono</label>
-        <input asp-for="administrador.Telefono" class="form-control" placeholder="Telefono Usuario" value="" required> 
-	</div>
+        <input asp-for="administrador.Telefono" class="form-control" placeholder="Telefono Usuario" value="" > 
+	    <span class ="text-danger" asp-validation-for="administrador.Telefono"></span>
+    </div>
 
 	<div class="form-group col-md-6">
         <label asp-for="administrador.Direccion" class="col-sm-2">Direccion</label>
-        <input asp-for="administrador.Direccion" class="form-control" placeholder="Direccion Usuario" value="">        
+        <input asp-for="administrador.Direccion" class="form-control" placeholder="Direccion Usuario" value="" required>        
+        
     </div> 
 
     <div class="form-group col-md-6">
@@ -34,7 +38,8 @@
 
 	<div class="form-group col-md-6">
         <label asp-for="administrador.Contrasena" class="col-sm-2">Contraseña</label>
-        <input asp-for="administrador.Contrasena" class="form-control" placeholder="**" value="" required>
+        <input asp-for="administrador.Contrasena" class="form-control" placeholder="**" value="" >
+        <span class ="text-danger" asp-validation-for="administrador.Contrasena"></span>
     </div>
 
     <div class="form-group col-md-6">

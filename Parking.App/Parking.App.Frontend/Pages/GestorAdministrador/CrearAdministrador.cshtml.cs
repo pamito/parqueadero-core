@@ -14,18 +14,31 @@ namespace Parking.App.Frontend
         private IRepositorioAdministrador repositorioAdministrador;
         public Administrador administrador { get; set; }
 
-        public CrearAdministradorModel (IRepositorioAdministrador repositorioAdministrador)
+        public CrearAdministradorModel(IRepositorioAdministrador repositorioAdministrador)
         {
             this.repositorioAdministrador = repositorioAdministrador;
+            Administrador administrador = new Administrador();
         }
         public void OnGet()
         {
-            Administrador administrador = new Administrador();
+
         }
-        public IActionResult OnPost (Administrador administrador)
+        public IActionResult OnPost(Administrador administrador)
         {
-            repositorioAdministrador.addAdministrador(administrador);
-            return RedirectToPage("./ListarAdministrador");
+            if (ModelState.IsValid)
+            {
+                try{
+                repositorioAdministrador.addAdministrador(administrador);
+                return RedirectToPage("./ListarAdministrador");
+                }
+                catch{
+                    return RedirectToPage("../Error");
+                }
+            }
+            else
+                return Page();
         }
-    }    
+    }
 }
+    
+
