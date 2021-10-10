@@ -10,18 +10,21 @@
 <table class="table">
   <thead class="thead-dark">
     <tr> 
-      <th scope="col">Piso</th>
+      
       <th scope="col">Espacio</th>
-      <th scope="col">Estado</th>   
+      <th scope="col">Vehiculo</th> 
+      <th scope="col">Hora de Entrada</th>
+      <th scope="col">Hora de Salida</th>  
     </tr>
   </thead>
 
 @foreach(var parqueadero in Model.parqueaderos)
 {
   <tr>     
-        <td>@parqueadero.Piso</td>
         <td>@parqueadero.Espacio</td>
-        <td>@parqueadero.Estado</td>   
+        <td>@parqueadero.Vehiculo.Placa</td>
+        <td>@parqueadero.Hora_Entrada</td>
+        <td>@parqueadero.Hora_Salida</td>  
         <td>
             <a class="btn btn-primary table-btn" asp-page="./EditarParqueadero" asp-route-Id="@parqueadero.Id">Editar</a>
         </td>    

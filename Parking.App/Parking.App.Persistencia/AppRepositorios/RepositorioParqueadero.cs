@@ -25,9 +25,10 @@ namespace Parking.app.Persistencia
         {
             Parqueadero ParqueaderoAEditar = _contexto.Parqueaderos.FirstOrDefault(f => f.Id == Parqueadero.Id);
             if(ParqueaderoAEditar != null){
-                ParqueaderoAEditar.Piso = Parqueadero.Piso;
+                ParqueaderoAEditar.Vehiculo = Parqueadero.Vehiculo;
                 ParqueaderoAEditar.Espacio =Parqueadero.Espacio;
-                ParqueaderoAEditar.Estado = Parqueadero.Estado;
+                ParqueaderoAEditar.Hora_Entrada = Parqueadero.Hora_Entrada;
+                ParqueaderoAEditar.Hora_Salida = Parqueadero.Hora_Salida;
                               
                 
                 _contexto.SaveChanges();
@@ -44,7 +45,7 @@ namespace Parking.app.Persistencia
 
         public IEnumerable<Parqueadero> getAllParqueaderos()
         {
-            return _contexto.Parqueaderos;
+            return _contexto.Parqueaderos.Include("Vehiculo");
         }
 
         public Parqueadero getParqueadero(int Id)

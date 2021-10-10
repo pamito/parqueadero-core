@@ -3,11 +3,13 @@ using System;
  {
     public class Parqueadero
     {
-        public Transaccion Transaccion {get; set;}
+       
          public int Id{get; set; }
-         public string Piso{ get; set; }
-         public string Espacio{ get; set; }
-         public bool Estado{ get; set; }    
+         public Espacio Espacio{ get; set; }
+         public Vehiculo Vehiculo { get; set; }
+         public DateTime Hora_Entrada {get; set;}
+         public DateTime Hora_Salida { get; set; }
+            
  
      }
  }
