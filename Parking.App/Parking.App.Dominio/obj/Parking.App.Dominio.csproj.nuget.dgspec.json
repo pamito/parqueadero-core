@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {}
+    "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {
+    "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj",
         "projectName": "Parking.App.Dominio",
-        "projectPath": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\JAROD\\.nuget\\packages\\",
-        "outputPath": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\obj\\",
+        "projectPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
+        "outputPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\JAROD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -37,6 +40,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

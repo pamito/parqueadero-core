@@ -1511,6 +1511,9 @@
       "Parking.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/Parking.App.Dominio.dll": {}
         },
@@ -5796,19 +5799,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JAROD\\.nuget\\packages\\": {}
+    "C:\\Users\\pablo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Parking.App.Frontend.csproj",
+      "projectUniqueName": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Parking.App.Frontend.csproj",
       "projectName": "Parking.App.Frontend",
-      "projectPath": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Parking.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\JAROD\\.nuget\\packages\\",
-      "outputPath": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\obj\\",
+      "projectPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\Parking.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
+      "outputPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\JAROD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5820,11 +5827,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {
-              "projectPath": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj"
+            "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj": {
+              "projectPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Dominio\\Parking.App.Dominio.csproj"
             },
-            "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj": {
-              "projectPath": "C:\\Parking\\CriolloDevops\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj"
+            "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj": {
+              "projectPath": "D:\\Parking\\MisionTic-Parking-Criollo-sDevop\\Parking.App\\Parking.App.Persistencia\\Parking.App.Persistencia.csproj"
             }
           }
         }
@@ -5864,7 +5871,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
